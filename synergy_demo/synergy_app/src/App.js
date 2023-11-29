@@ -1,19 +1,13 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SynergyButton from './components/SynergyButton'
-
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
-          <SynergyButton></SynergyButton>
-        </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Welcome to Synergy
         </p>
         <a
           className="App-link"
@@ -21,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Welcome to Synergy
+          UCF Fintech Startup Project
         </a>
       </header>
     </div>

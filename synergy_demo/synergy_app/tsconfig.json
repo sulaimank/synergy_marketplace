@@ -1,26 +1,18 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "commonjs",
+    "lib": ["dom", "es2021", "scripthost"],
+    "jsx": "react-jsx",
     "moduleResolution": "node",
+    "allowJs": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "useUnknownInCatchVariables": false
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
