@@ -1,5 +1,5 @@
 import express, { application } from "express";
-import expressAsyncHandler from "express- async-handler";
+import expressAsyncHandler from "express-async-handler";
 import bcrypt from "bcryptjs";
 import data from "../data.js";
 import Application from "../models/Application.js";
@@ -36,7 +36,6 @@ applicationRouter.post(
     return mg.messages().send(
       {
         from: "noreply@danceplat.com",
-        to: email,
         to: "dancemarketweb@gmail.com",
         subject: "Confirmation of Seller Application",
         html: `<h1>

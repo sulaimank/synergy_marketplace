@@ -19,7 +19,7 @@ const HomeHero2 = () => {
     <Box data-aos={isMd ? "fade-right" : "fade-up"}>
       <Box marginBottom={2}>
         <Typography variant="h2" sx={{ fontWeight: 700 }}>
-          Synergy - We make trading{" "}
+          Synergy - We make trading {" "}
         </Typography>
         <Typography
           color={"#2371C8"}
