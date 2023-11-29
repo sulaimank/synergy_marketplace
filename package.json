@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@mui/x-date-pickers": "^5.0.20",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-datalabels": "^2.1.0",
+    "dayjs": "^1.11.7",
+    "material-ui-popup-state": "^4.1.0",
+    "mongodb": "^6.3.0",
+    "numeral": "^2.0.6",
+    "react-chartjs-2": "^2.11.2",
+    "react-icons": "^4.4.0",
+    "react-tiktok": "^1.0.0",
+    "react-toastify": "^9.0.8"
+  },
+  "name": "synergy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
