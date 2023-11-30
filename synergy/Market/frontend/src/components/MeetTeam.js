@@ -31,7 +31,7 @@ const MeetTeam = () => {
         {[
           {
             name: "Marco Bogani",
-            title: "CEO at Synergy",
+            title: "Founder and CEO",
             avatar: "/dist/img/avatar3.png",
           },
           {
