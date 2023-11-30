@@ -7,6 +7,7 @@ import CardContent from "@mui/material/CardContent";
 import ListItemText from "@mui/material/ListItemText";
 import CardMedia from "@mui/material/CardMedia";
 import { Divider } from "../../node_modules/@mui/material/index";
+import Avatar from "@mui/material/Avatar";
 const MeetTeam = () => {
   return (
     <Box>
@@ -31,22 +32,22 @@ const MeetTeam = () => {
           {
             name: "Marco Bogani",
             title: "CEO at Synergy",
-            avatar: "https://assets.maccarianagency.com/avatars/img3.jpg",
+            avatar: "/dist/img/avatar3.png",
           },
           {
             name: "Sulaiman Karmali",
             title: "CTO",
-            avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
+            avatar: "/dist/img/avatar4.png",
           },
           {
             name: "Daman Sawhney",
             title: "CFO",
-            avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+            avatar: "/dist/img/avatar5.png",
           },
           {
             name: "William Harris",
             title: "President & VP",
-            avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+            avatar: "/dist/img/avatar2.png",
           },
         ].map((item, i) => (
           <Grid
